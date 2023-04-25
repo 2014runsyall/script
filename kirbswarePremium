@@ -5,5 +5,5 @@ end
 
 wait(1)
 if game.Players.LocalPlayer then
-    game.Players.LocalPlayer:Kick("Outdated script Join .gg/kir")
+    game.Players.LocalPlayer:Kick("Outdated script Join .gg/kirb")
 end
