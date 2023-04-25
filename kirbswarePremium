@@ -1,2 +1,9 @@
-_G.wl_key = getgenv().Kirbsware.AimViewer.Premium.Key
-loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4898/19136/KirbswarePremium.lua'))()
+--Outdated script dont use! join .gg/kirb for the new one!
+if not game:IsLoaded() then
+	game.Loaded:Wait()
+end
+
+wait(1)
+if game.Players.LocalPlayer then
+    game.Players.LocalPlayer:Kick("Outdated script Join .gg/kir")
+end
